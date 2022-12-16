@@ -1,7 +1,7 @@
 # qb-fakeplate
 Fake plate Feature for QB-Core Framework :people_holding_hands:
 
-You Can Make My Day By Giving Some Money To Me Via
+You can make my day happy by giving me some money via:
 **[Paypal](https://www.paypal.com/donate/?hosted_button_id=24QLXKUH3M5FQ)**
 
 Added support for setting default number of characters per player per Rockstar license
