@@ -2,7 +2,7 @@
 Fake plate Feature for QB-Core Framework :people_holding_hands:
 
 You Can Make My Day By Giving Some Money To Me Via
-**[Paypal](link)**
+**[Paypal](https://www.paypal.com/donate/?hosted_button_id=24QLXKUH3M5FQ)**
 
 Added support for setting default number of characters per player per Rockstar license
 
@@ -31,6 +31,8 @@ ensure qb-fakeplate
 ['fakeplate'] 					 = {['name'] = 'fakeplate', 		  	  		['label'] = 'Fake Plate',		 		['weight'] = 250, 		['type'] = 'item', 		['image'] = 'fakeplate.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'With this fake plate, you won\'t be wanted.'},
 ```
 - Add fakeplate.png image in [qb]/qb-inventory/html/images
+
+**![image](https://user-images.githubusercontent.com/77104201/207998099-b0d7c628-2d8f-4dbb-9cf3-b297e86c88af.png)**
 
 # License
 
