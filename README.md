@@ -13,10 +13,10 @@ Added support for setting default number of characters per player per Rockstar l
 [Video-Preview](https://www.youtube.com/watch?v=KuE5HlGW5ZU)
 
 ## Features
-- Install a fake license plate on the player's vehicle.
-- With the false license plate installed, the police cannot identify the owner of the vehicle.
+- Install a fake plate on the player's vehicle.
+- With the fake plate installed, the police cannot identify the owner of the vehicle.
 - The player needs to remove the fake plate from the vehicle before storing in any garage.
-- Any player can remove the plate from the vehicle, there is a chance that the plate will break when removed.
+- Any player can remove the fake plate from the vehicle, there is a chance that the fake plate will break when removed.
 - If you are arrested, the police can also remove the fake plate and fine your vehicle.
 
 ## Installation
