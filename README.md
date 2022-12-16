@@ -8,18 +8,16 @@ Added support for setting default number of characters per player per Rockstar l
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [qb-spawn](https://github.com/qbcore-framework/qb-spawn) - Spawn selector
-- [qb-apartments](https://github.com/qbcore-framework/qb-apartments) - For giving the player a apartment after creating a character.
-- [qb-clothing](https://github.com/qbcore-framework/qb-clothing) - For the character creation and saving outfits.
-- [qb-weathersync](https://github.com/qbcore-framework/qb-weathersync) - For adjusting the weather while player is creating a character.
-- [Doorlock-Script](https://cdn.discordapp.com/attachments/932578698782191669/948942229731438673/Multicharacter.lua) - Add This Script TO qb-doorlock/configs
 
 ## Preview
 [Video-Preview](https://www.youtube.com/watch?v=KuE5HlGW5ZU)
 
 ## Features
-- Ability to create up to 5 characters and delete any character.
-- Ability to see character information during selection.
+- Install a fake license plate on the player's vehicle.
+- With the false license plate installed, the police cannot identify the owner of the vehicle.
+- The player needs to remove the fake plate from the vehicle before storing in any garage.
+- Any player can remove the plate from the vehicle, there is a chance that the plate will break when removed.
+- If you are arrested, the police can also remove the fake plate and fine your vehicle.
 
 ## Installation
 ### Manual
@@ -27,12 +25,12 @@ Added support for setting default number of characters per player per Rockstar l
 - Add the following code to your server.cfg/resouces.cfg
 ```
 ensure qb-fakeplate
-
 ```
-- Add in qb-core/shared/items.lua
-```
+- Add in [qb]/qb-core/shared/items.lua
+```lua
 ['fakeplate'] 					 = {['name'] = 'fakeplate', 		  	  		['label'] = 'Fake Plate',		 		['weight'] = 250, 		['type'] = 'item', 		['image'] = 'fakeplate.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'With this fake plate, you won\'t be wanted.'},
 ```
+- Add fakeplate.png image in [qb]/qb-inventory/html/images
 
 # License
 
