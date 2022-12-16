@@ -8,7 +8,7 @@ Added support for setting default number of characters per player per Rockstar l
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [Ox MySQL](https://github.com/overextended/oxmysql)
+- [OxMySQL](https://github.com/overextended/oxmysql)
 
 ## Preview
 [Video-Preview](https://www.youtube.com/watch?v=KuE5HlGW5ZU)
