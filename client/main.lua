@@ -72,7 +72,7 @@ end)
 
 RegisterNetEvent('qb-fakeplate:client:checkCarPlate')
 AddEventHandler('qb-fakeplate:client:checkCarPlate', function(checkCarPlate, carPlate)
-    local src = source
+    local source = source
     local carPlate = {}
     local ped = PlayerPedId()
     local pedCoords = GetEntityCoords(ped)
@@ -98,7 +98,7 @@ AddEventHandler('qb-fakeplate:client:checkCarPlate', function(checkCarPlate, car
                     QBCore.Functions.Notify(Lang:t("fake_plate_broker"), 'error', 5000)
             else
                     QBCore.Functions.Notify(Lang:t("plate_removed"), 'success', 5000)
-                TriggerServerEvent("qb-fakeplate:server:returnFakePlate")
+                TriggerServerEvent("qb-fakeplate:server:returnFakePlate", source)
                 TriggerEvent('inventory:client:ItemBox', QBCore.Shared.Items["fakeplate"], "add")
             end
         end, function()
