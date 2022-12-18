@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'qb-fakeplate'
-version '1.1'
+version '1.0.1'
 
 shared_scripts {
     '@qb-core/shared/locale.lua',
